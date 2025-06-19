@@ -117,26 +117,27 @@ This full-stack transition is designed to:
 
 ## 📁 Folder Structure (Planned)
 
+```
 Where2Run-FullStack/
-│
-├── backend/              # FastAPI app (Render-hosted)
+├── backend/                  # FastAPI app (Render-hosted)
 │   ├── app/
 │   │   ├── main.py
 │   │   ├── routers/
 │   │   └── utils/
 │   └── requirements.txt
 │
-├── frontend/             # React app (Vercel/Netlify-hosted)
+├── frontend/                 # React app (Vercel/Netlify-hosted)
 │   ├── public/
 │   ├── src/
 │   └── package.json
 │
-├── database/             # SQL schema setup
+├── database/                 # SQL schema setup
 │   └── init.sql
 │
-├── .env.example          # Environment variable template
+├── .env.example              # Environment variable template
 ├── README.md
 └── LICENSE
+```
 
 ---
 
