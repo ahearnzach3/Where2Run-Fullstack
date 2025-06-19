@@ -1,0 +1,16 @@
+# requirements.txt
+
+fastapi
+uvicorn[standard]
+requests
+pydantic
+httpx
+openrouteservice
+gpxpy
+folium
+matplotlib
+geopy
+pandas
+numpy
+psycopg2-binary
+python-dotenv
